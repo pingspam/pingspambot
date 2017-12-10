@@ -1,12 +1,12 @@
 import config
-from discord.ext.command import Bot
+from discord.ext.commands import Bot
 import discord
 
 import asyncio
 import logging
 import datetime
 
-pBot = Bot(commandprefix=config.PREFIX)
+pBot = Bot(command_prefix=config.PREFIX)
 
 @pBot.event
 async def on_ready():
@@ -20,3 +20,5 @@ async def on_ready():
 @pBot.command()
 async def ping():
     return await pBot.say('PONG!')
+
+pBot.run(config.TOKEN)
