@@ -1,0 +1,8 @@
+#Basic Bot info
+TOKEN = ''
+
+#Bot Message
+msg = ''
+
+#webservices
+services = {name: {'url': 'ws://URL', 'svc_token': 'TOKEN_GOES_HERE'}}
