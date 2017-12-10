@@ -1,5 +1,6 @@
 #Basic Bot info
 TOKEN = ''
+PREFIX = '/'
 
 #Bot Message
 msg = ''
